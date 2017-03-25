@@ -5,6 +5,7 @@
  */
 package voodlewoodlel;
 
+
 /**
  *
  * @author Erjon
@@ -15,7 +16,12 @@ public class Voodlewoodlel {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        NameModifier myVw = new NameModifier();
+        
+        System.out.println(myVw.Voodleize("Bob"));
+        System.out.println(myVw.Voodleize("Peeves"));
+        System.out.println(myVw.Voodleize("Sinistra"));
+        System.out.println(myVw.Voodleize("Bhlm"));
     }
     
 }
